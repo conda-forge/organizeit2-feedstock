@@ -1,14 +1,14 @@
 context:
   name: organizeit2
-  version: 0.4.0
+  version: "0.5.0"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-    url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-    sha256: 05c8be6f36c26fbb395bd0bc92abcb494670a8dfebfc13eb35bead47c685829e
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
+  sha256: 72a49ca29a7d5f1962329904c9fd01073ae667a48d74e169024bdbbcc53daf96
 
 build:
   number: 0
