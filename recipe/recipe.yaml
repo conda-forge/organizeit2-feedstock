@@ -1,6 +1,6 @@
 context:
   name: organizeit2
-  version: "0.5.0"
+  version: "0.6.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 72a49ca29a7d5f1962329904c9fd01073ae667a48d74e169024bdbbcc53daf96
+  sha256: 0dd9b9534348b67f2846a16eebc68dcd3b5bb79d03f531706ff813510600efc1
 
 build:
   number: 0
